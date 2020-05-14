@@ -1,0 +1,13 @@
+:host {
+  @import '../../../node_modules/@ag-grid-community/all-modules/dist/styles/ag-grid.scss';
+  @import '../../../node_modules/@ag-grid-community/all-modules/dist/styles/ag-theme-balham/sass/ag-theme-balham.scss';
+  @import '../../../node_modules/@ag-grid-community/all-modules/dist/styles/ag-theme-balham-dark/sass/ag-theme-balham-dark.scss';
+
+  .grid {
+    display: grid;
+    height: 100%;
+    min-width: 500px;
+    min-height: 500px;
+  }
+
+}
