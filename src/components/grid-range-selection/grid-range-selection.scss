@@ -1,7 +1,17 @@
 :host {
+
+  $ag-compatibility-mode: "legacy"; // or "variables"
+  $ag-suppress-legacy-var-import: true;
+  @import '../../../node_modules/@ag-grid-community/all-modules/dist/styles/ag-theme-balham/sass/legacy/ag-theme-balham-v22-compat.scss';
+
   @import '../../../node_modules/@ag-grid-community/all-modules/dist/styles/ag-grid.scss';
   @import '../../../node_modules/@ag-grid-community/all-modules/dist/styles/ag-theme-balham/sass/ag-theme-balham.scss';
   @import '../../../node_modules/@ag-grid-community/all-modules/dist/styles/ag-theme-balham-dark/sass/ag-theme-balham-dark.scss';
+
+
+  @include ag-theme-balham((
+    header-foreground-color: red
+  ));
 
   .grid {
     display: grid;

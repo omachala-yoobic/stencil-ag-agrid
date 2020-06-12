@@ -11,8 +11,8 @@
     "generate": "stencil generate"
   },
   "dependencies": {
-    "@ag-grid-community/all-modules": "22.1.1",
-    "@ag-grid-enterprise/all-modules": "22.1.2",
+    "@ag-grid-community/all-modules": "~23",
+    "@ag-grid-enterprise/all-modules": "~23",
     "@stencil/core": "1.13.0",
     "@stencil/router": "^1.0.1",
     "@stencil/sass": "1.3.1"
